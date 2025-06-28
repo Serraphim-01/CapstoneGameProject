@@ -1,0 +1,40 @@
+=====================
+🕹️ GAME CONCEPT - "KILL"
+=====================
+
+Kill is a fast-paced, immersive 3D action shooter built with Unity for both mobile and PC. The player takes on the role of a lone operative dropped into hostile levels filled with varying types of enemies. Each level presents a unique battlefield where survival depends on movement, aim, timing, and strategy.
+
+The core gameplay loop revolves around selecting a level from a central Lobby, eliminating all enemies, and progressing to the next stage. The game uses a blend of stealth and aggressive tactics, supported by responsive controls—keyboard and mouse for PC, and joystick + touch input for mobile.
+
+===============
+🔧 CORE MECHANICS
+===============
+
+1. 🎯 **Precision Aiming and Shooting**
+   - Players must aim manually using mouse or screen gestures and fire with purpose. Headshots and timing matter.
+
+2. 🧠 **Enemy Waves and Class Types**
+   - Common, Elite, and Boss enemies spawn with different behaviors and health stats.
+
+3. 🚶 **Camera-Relative Movement**
+   - Movement aligns with the player’s camera direction, allowing intuitive traversal across 3D space.
+
+4. 🕹️ **Cross-Platform Controls**
+   - PC: Keyboard + Mouse
+   - Mobile: Floating Joystick + Touchscreen support
+   - Crouching, aiming, and shooting all work seamlessly on both platforms.
+
+5. 🎵 **Immersive Audio Layer**
+   - Dynamic background music, responsive button clicks, and satisfying gunfire elevate the experience.
+
+6. 🖥️ **UI Toolkit-Driven UX**
+   - Beautiful, pixel-inspired panels and responsive layouts using Unity’s UI Toolkit (UXML & USS).
+
+7. 🧱 **Scalable Level Progression**
+   - From the calm of the Lobby to the chaos of Level 3, the game tracks player victory and unlocks the next challenge dynamically.
+
+==========================
+🎮 WHY "KILL" STANDS OUT
+==========================
+
+It’s not just about shooting—it’s about how **well** you move, how **smart** you engage, and how **quickly** you react. “Kill” respects the player’s skill, supports both casual and serious play, and looks great on any screen.

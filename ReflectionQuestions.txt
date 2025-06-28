@@ -1,0 +1,30 @@
+1. What Inspired your game concept. 
+Answer: I wanted to create something that combined the intensity of 
+classic tactical shooters with the simplicity of mobile play. Games 
+like Call of Duty and Superhot inspired the core combat, but I designed 
+Kill to strip down the experience to what matters most—precision, pressure,
+ and progression.
+
+2. What were your biggest challenges during development?
+The biggest challenge was making sure the gameplay felt great on both 
+mobile and PC. Input handling, UI scaling, and responsive controls behave 
+very differently on touchscreens vs keyboard setups.
+
+3. How did you solve major problems?
+I implemented a platform detection system that automatically adjusts the 
+control scheme and UI layout at runtime. For input, I built a custom 
+floating joystick and tied it directly into the player controller, ensuring
+parity across platforms. The UI was styled using Unity’s UI Toolkit for 
+fluid responsiveness.
+
+4. What Feature are you most proud of?
+The dynamic enemy tracking and win detection system. It seamlessly manages 
+enemy types, counts, and victory conditions—triggering win states, 
+animations, and UI transitions without bugs or lag. It’s clean, efficient, 
+and incredibly satisfying to watch in action.
+
+5. If you had more time, wat would you improve or add?
+I’d expand the Shop system, add weapon upgrades, and implement enemy 
+patrol AI for more strategic gameplay. I’d also explore multiplayer 
+deathmatches and a leaderboard system to encourage replayability and 
+competition.
