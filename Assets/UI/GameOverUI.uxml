@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/styles.uss?fileID=7433441132597879392&amp;guid=cddf3281f0ace0249a1a36a075d28bbe&amp;type=3#styles" />
+    <ui:VisualElement name="GameOverCanvas" id="GameOverCanvas">
+        <ui:VisualElement name="Panel" class="game-panel" style="background-image: url(&quot;project://database/Assets/Assets/Packages/GUI_Parts/Gui_parts/barmid_ready.png?fileID=21300000&amp;guid=f7f681cd213d9a7488500ce745f2d4f8&amp;type=3#barmid_ready&quot;);">
+            <ui:Label name="GameOver" text="Game Over" class="game-title" />
+            <ui:Label name="YouWin" text="You Win" class="game-title" />
+            <ui:VisualElement name="RestartText" class="button-wrapper" style="background-image: url(&quot;project://database/Assets/Assets/Packages/GUI_Parts/Gui_parts/button.png?fileID=21300000&amp;guid=485cd2ab0486a8e4aaa55e94ec27c6b6&amp;type=3#button&quot;); margin-top: 20%;">
+                <ui:Button name="Restart" text="Restart" class="game-button" />
+                <ui:Button name="NextLevel" text="Next Level" class="game-button special_game-button" />
+            </ui:VisualElement>
+            <ui:VisualElement name="ReturnText" class="button-wrapper" style="background-image: url(&quot;project://database/Assets/Assets/Packages/GUI_Parts/Gui_parts/button.png?fileID=21300000&amp;guid=485cd2ab0486a8e4aaa55e94ec27c6b6&amp;type=3#button&quot;);">
+                <ui:Button name="Return" text="Return to Lobby" class="game-button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

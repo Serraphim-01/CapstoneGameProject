@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/styles.uss?fileID=7433441132597879392&amp;guid=cddf3281f0ace0249a1a36a075d28bbe&amp;type=3#styles" />
+    <ui:VisualElement name="ShopPanel" style="flex-grow: 1;">
+        <ui:VisualElement name="BG" class="panel-bg" style="background-image: url(&quot;project://database/Assets/Assets/Packages/GUI_Parts/Gui_parts/bar_ready.png?fileID=21300000&amp;guid=c241e847af767d148b898393a975bb22&amp;type=3#bar_ready&quot;);">
+            <ui:Label text="SHOP&#10;Coming Soon" class="panel-label" />
+            <ui:Button text="X" name="CloseButton" class="panel-close" style="background-image: url(&quot;project://database/Assets/Assets/Packages/GUI_Parts/Gui_parts/button2_ready_on.png?fileID=21300000&amp;guid=6b8728d20b5d4c540b335c3789517218&amp;type=3#button2_ready_on&quot;);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

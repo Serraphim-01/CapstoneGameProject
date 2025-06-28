@@ -1,0 +1,4 @@
+repository "CapstoneGameProject 2025-06-11_11-40-22/CapstoneGameProject@11270504164413@cloud"
+  path "/"
+    br "/main"
+    co "/main"

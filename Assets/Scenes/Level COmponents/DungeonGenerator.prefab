@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7224355813851132518
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7932291995367122348}
+  - component: {fileID: 1924252598141492344}
+  - component: {fileID: 4415396530019390593}
+  - component: {fileID: 3083962180883291454}
+  - component: {fileID: 2060806760192656282}
+  - component: {fileID: 2701613518809388754}
+  - component: {fileID: 3093465462622726566}
+  m_Layer: 0
+  m_Name: DungeonGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7932291995367122348
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7224355813851132518}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.350229, y: 21.565865, z: 4.8973827}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1924252598141492344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7224355813851132518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4e1feb5c66250440a9075361b09ce78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gridWidth: 40
+  gridHeight: 40
+  minRoomSize: 5
+  maxRoomSize: 10
+  minRoomCount: 2
+  maxRoomCount: 2
+  floorPrefab: {fileID: 1162900658362733048, guid: 53786f60f7f1dd14ebba8970eaf3fe5a,
+    type: 3}
+  wallPrefab: {fileID: 2062256941687557852, guid: d32e4f9d336a75846968bddeaec20c8c,
+    type: 3}
+  doorPrefab: {fileID: 169681435291579773, guid: c243136521e368f4aa039574ebe57709,
+    type: 3}
+  spawnDoorPrefab: {fileID: 169681435291579773, guid: c243136521e368f4aa039574ebe57709,
+    type: 3}
+  playerSpawnPoint: {x: 24, y: 0, z: 112}
+  playerPrefab: {fileID: 8007126164540130510, guid: 452de22ee1b1ac048bc4bb30bdbc245a,
+    type: 3}
+  dungeonRoot: {fileID: 0}
+  navMeshSurface: {fileID: 2701613518809388754}
+--- !u!114 &4415396530019390593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7224355813851132518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b89633ae992bd4189ef0bc9d028e40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dungeonGenerator: {fileID: 1924252598141492344}
+  playerPrefab: {fileID: 8007126164540130510, guid: 452de22ee1b1ac048bc4bb30bdbc245a,
+    type: 3}
+--- !u!114 &3083962180883291454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7224355813851132518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c22e503bfff72be44b0ab185a16e2fb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dungeonGenerator: {fileID: 1924252598141492344}
+  commonMonsterPrefab: {fileID: 1931298151966786, guid: bc25421c3517f484da6dac6beed1a2dd,
+    type: 3}
+  eliteMonsterPrefab: {fileID: 1931298151966786, guid: bc25421c3517f484da6dac6beed1a2dd,
+    type: 3}
+  bossMonsterPrefab: {fileID: 1931298151966786, guid: bc25421c3517f484da6dac6beed1a2dd,
+    type: 3}
+  totalMonsters: 2
+--- !u!114 &2060806760192656282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7224355813851132518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8868f038bc451b409b0804c0caba358, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dungeonGenerator: {fileID: 1924252598141492344}
+  propPrefabs:
+  - {fileID: 3276006821577461869, guid: 8ea9cccba20b95841b26c1a479fc9e2c, type: 3}
+  - {fileID: 4119627621671638845, guid: 0c53dbe40d6725b41a17c287e5355349, type: 3}
+  - {fileID: 4785730756717771898, guid: f60642b1c2499e0459c94520e7667a12, type: 3}
+  - {fileID: 6720742681232877833, guid: 060e859d13c8f364b93f82a6335865b1, type: 3}
+  - {fileID: 1654307743825184330, guid: 895114c8a3f45a84b8c608fb8106d025, type: 3}
+  propsPerRoom: 4
+--- !u!114 &2701613518809388754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7224355813851132518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AgentTypeID: 0
+  m_CollectObjects: 2
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 65
+  m_UseGeometry: 0
+  m_DefaultArea: 0
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 0}
+  m_BuildHeightMesh: 0
+--- !u!114 &3093465462622726566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7224355813851132518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e38868f3f046a2940ab9077a964793d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameOverUIDocument: {fileID: 0}
+  totalEnemiesText: {fileID: 0}
+  commonEnemiesText: {fileID: 0}
+  eliteEnemiesText: {fileID: 0}
+  bossEnemiesText: {fileID: 0}

@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/styles.uss?fileID=7433441132597879392&amp;guid=cddf3281f0ace0249a1a36a075d28bbe&amp;type=3#styles" />
+    <ui:VisualElement name="InstructionsPanel" style="flex-grow: 1;">
+        <ui:VisualElement name="Panel" class="panel-bg" style="background-image: url(&quot;project://database/Assets/Assets/Packages/GUI_Parts/Gui_parts/bar_ready.png?fileID=21300000&amp;guid=c241e847af767d148b898393a975bb22&amp;type=3#bar_ready&quot;);">
+            <ui:Button text="X" name="CloseButton" class="panel-close" style="background-image: url(&quot;project://database/Assets/Assets/Packages/GUI_Parts/Gui_parts/button2_ready_off.png?fileID=21300000&amp;guid=4b3d2095baccc2041b973b66b786b9d0&amp;type=3#button2_ready_off&quot;);" />
+            <ui:Label name="Instructions" text="How to Play:&#10;Press Start to Start the Game, Press the Quit Button to Exit the Game,&#10;In Game Mode:W,A,S,D for Movement, Right Mouse Button to Aim, Left Mouse Button to Shoot, Ctrl to Toggle Pointer, C to Crouch" class="panel-label" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
